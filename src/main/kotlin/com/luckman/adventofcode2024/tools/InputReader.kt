@@ -21,4 +21,9 @@ class InputReader {
         }
         return result
     }
+
+    fun readAsIntegers(): List<Int> {
+        val lines = readAllLines()
+        return lines.map { s -> s.toInt() }
+    }
 }
