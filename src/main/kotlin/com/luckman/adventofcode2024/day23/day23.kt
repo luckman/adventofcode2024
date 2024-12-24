@@ -47,6 +47,7 @@ fun part1(): Int {
 
 // No idea, why monte-carlo method works well on this graph (maybe on all random generated graphs???)
 // but it finds the best answer almost instantly (usually lest than 70 attempts is enough)
+// ofc we are not sure that it is the best answer
 fun part2(): List<String> {
     val vertices = graph.keys
     var bestSet: Set<String> = emptySet()
